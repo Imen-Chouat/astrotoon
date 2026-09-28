@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@theme {
+  /* Creating custom background and text utility classes */
+  --color-spacetoon-action: #ff4d4d;
+  --color-spacetoon-science: #33ccff;
+  --color-spacetoon-zomoroda: #ff66cc;
+  --color-spacetoon-adventure: #ffcc00;
+  --color-spacetoon-darkBg: #0f172a;
+}
+
+/* Custom CSS variables for clean global look */
+body {
+  margin: 0;
+  background-color: #020617; /* Slate 950 for deep space look */
+  color: #ffffff;
+  font-family: system-ui, -apple-system, sans-serif;
+  overflow-x: hidden;
+}
