@@ -1,4 +1,4 @@
-
+[
 {
     "id": "goku",
     "acceptedNames": ["goku", "son goku", "غوكو", "سون غوكو"],
@@ -18,7 +18,7 @@
       "/assets/images/characters/goku-full.png",
       "/assets/images/characters/goku-full.png"
     ]
-  }
+  },
   {
     "id": "killua",
     "acceptedNames": ["killua", "killua zoldyck", "كيلوا", "كيلوا زولديك"],
@@ -959,3 +959,4 @@
       "/assets/images/characters/sylvester-full.png"
     ]
   }
+]

@@ -18,7 +18,7 @@
       "/assets/images/characters/hints/conan3.png",
       "/assets/images/characters/hints/conan4.png"
     ]
-  }  {
+  }  , {
     "id": "gon",
     "acceptedNames": ["gon", "gon freecss", "غون", "غون فريكس"],
     "englishName": "Gon Freecss",
