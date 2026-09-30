@@ -1,0 +1,57 @@
+body {
+	--fsAddBuffer: 22px;
+}
+[id='giphy-com_desktop_leaderboard_atf'],
+[id='giphy-com_mobile_sticky_pushdown-pushdown-cls'],
+[id='giphy-com_mobile_sticky_pushdown_details-pushdown-cls'],
+[id='giphy-com_mobile_sticky_pushdown_explore-pushdown-cls'],
+[id='giphy-com_mobile_sticky_pushdown_media-pushdown-cls'],
+[id='giphy-com_mobile_sticky_pushdown_search-pushdown-cls'] {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	min-height: calc(var(--height) + var(--fsAddBuffer));
+	height: calc(var(--height) + var(--fsAddBuffer));
+	width: 100%;
+}
+[id='giphy-com_mobile_sticky_pushdown-pushdown-cls'] {
+		--height: 100px;
+}
+[id='giphy-com_mobile_sticky_pushdown_details-pushdown-cls'] {
+		--height: 100px;
+}
+[id='giphy-com_mobile_sticky_pushdown_explore-pushdown-cls'] {
+		--height: 100px;
+}
+[id='giphy-com_mobile_sticky_pushdown_media-pushdown-cls'] {
+		--height: 100px;
+}
+[id='giphy-com_mobile_sticky_pushdown_search-pushdown-cls'] {
+		--height: 100px;
+}
+@media only screen and (min-width: 768px) {
+	[id='giphy-com_desktop_leaderboard_atf'] {
+		--height: 90px;
+	}
+	[id='giphy-com_mobile_sticky_pushdown-pushdown-cls'] {
+		display: none; 
+	}
+	[id='giphy-com_mobile_sticky_pushdown_details-pushdown-cls'] {
+		display: none; 
+	}
+	[id='giphy-com_mobile_sticky_pushdown_explore-pushdown-cls'] {
+		display: none; 
+	}
+	[id='giphy-com_mobile_sticky_pushdown_media-pushdown-cls'] {
+		display: none; 
+	}
+	[id='giphy-com_mobile_sticky_pushdown_search-pushdown-cls'] {
+		display: none; 
+	}
+}
+@media only screen and (min-width: 1000px) {
+	[id='giphy-com_desktop_leaderboard_atf'] {
+		--height: 90px;
+	}
+}

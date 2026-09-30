@@ -1,0 +1,11 @@
+[
+  {
+    "id": "babar_song",
+    "englishName": "babar",
+    "arabicName": "ريمي",
+    "audioPath": "/assets/audio/babar.mp3",
+    "visibleLyrics": "أنت الأمان أنت الحنان... منبع فكرك مأوى الجنان",
+    "hiddenLyrics": "أمي أمي أمي... نبض قلبي نبع الحنان",
+    "gifUrl": "/assets/images/characters/conan-full.png"
+  }
+]

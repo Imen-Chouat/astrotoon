@@ -1,0 +1,22 @@
+[
+  {
+    "id": "conan",
+    "acceptedNames": ["conan", "conan edogawa", "كونان", "المحقق كونان"],
+    "englishName": "Conan Edogawa",
+    "arabicName": "المحقق كونان",
+    "imagePath": "/assets/images/characters/conan-full.png",
+    "gifUrl": "https://giphy.com",
+    "infos": {
+      "age": "7 (Physically) / 17",
+      "planet": "Moghamarat (مغامرات)",
+      "gender": "Male",
+      "specialSkill": "Brilliant Deduction"
+    },
+    "imageHints": [
+      "/assets/images/characters/conan-hint1.png",
+      "/assets/images/characters/conan-hint2.png",
+      "/assets/images/characters/conan-hint3.png",
+      "/assets/images/characters/conan-hint4.png"
+    ]
+  }
+]
