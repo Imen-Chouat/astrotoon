@@ -1,22 +1,961 @@
-[
-  {
-    "id": "conan",
-    "acceptedNames": ["conan", "conan edogawa", "كونان", "المحقق كونان"],
-    "englishName": "Conan Edogawa",
-    "arabicName": "المحقق كونان",
-    "imagePath": "/assets/images/characters/conan-full.png",
-    "gifUrl": "https://giphy.com",
+
+{
+    "id": "goku",
+    "acceptedNames": ["goku", "son goku", "غوكو", "سون غوكو"],
+    "englishName": "Goku",
+    "arabicName": "غوكو",
+    "imagePath": "/assets/images/characters/goku-full.png",
+    "gifUrl": "/assets/images/characters/goku-full.png",
     "infos": {
-      "age": "7 (Physically) / 17",
-      "planet": "Moghamarat (مغامرات)",
+      "age": "30s",
+      "planet": "Action (أكشن)",
       "gender": "Male",
-      "specialSkill": "Brilliant Deduction"
+      "specialSkill": "Kamehameha"
     },
     "imageHints": [
-      "/assets/images/characters/conan-hint1.png",
-      "/assets/images/characters/conan-hint2.png",
-      "/assets/images/characters/conan-hint3.png",
-      "/assets/images/characters/conan-hint4.png"
+      "/assets/images/characters/goku-full.png",
+      "/assets/images/characters/goku-full.png",
+      "/assets/images/characters/goku-full.png",
+      "/assets/images/characters/goku-full.png"
     ]
   }
-]
+  {
+    "id": "killua",
+    "acceptedNames": ["killua", "killua zoldyck", "كيلوا", "كيلوا زولديك"],
+    "englishName": "Killua Zoldyck",
+    "arabicName": "كيلوا",
+    "imagePath": "/assets/images/characters/killua-full.png",
+    "gifUrl": "/assets/images/characters/killua-full.png",
+    "infos": {
+      "age": "12",
+      "planet": "Moghamarat (مغامرات)",
+      "gender": "Male",
+      "specialSkill": "Godspeed / Lightning"
+    },
+    "imageHints": [
+      "/assets/images/characters/killua-full.png",
+      "/assets/images/characters/killua-full.png",
+      "/assets/images/characters/killua-full.png",
+      "/assets/images/characters/killua-full.png"
+    ]
+  },
+  {
+    "id": "naruto",
+    "acceptedNames": ["naruto", "naruto uzumaki", "ناروتو", "ناروتو أوزوماكي"],
+    "englishName": "Naruto Uzumaki",
+    "arabicName": "ناروتو",
+    "imagePath": "/assets/images/characters/naruto-full.png",
+    "gifUrl": "/assets/images/characters/naruto-full.png",
+    "infos": {
+      "age": "12-13",
+      "planet": "Action (أكشن)",
+      "gender": "Male",
+      "specialSkill": "Rasengan / Shadow Clone"
+    },
+    "imageHints": [
+      "/assets/images/characters/naruto-full.png",
+      "/assets/images/characters/naruto-full.png",
+      "/assets/images/characters/naruto-full.png",
+      "/assets/images/characters/naruto-full.png"
+    ]
+  },
+  {
+    "id": "luffy",
+    "acceptedNames": ["luffy", "monkey d luffy", "لوفي", "مونكي دي لوفي"],
+    "englishName": "Monkey D. Luffy",
+    "arabicName": "لوفي",
+    "imagePath": "/assets/images/characters/luffy-full.png",
+    "gifUrl": "/assets/images/characters/luffy-full.png",
+    "infos": {
+      "age": "17",
+      "planet": "Moghamarat (مغامرات)",
+      "gender": "Male",
+      "specialSkill": "Gum-Gum Pistol"
+    },
+    "imageHints": [
+      "/assets/images/characters/luffy-full.png",
+      "/assets/images/characters/luffy-full.png",
+      "/assets/images/characters/luffy-full.png",
+      "/assets/images/characters/luffy-full.png"
+    ]
+  },
+  {
+    "id": "sakuragi",
+    "acceptedNames": ["hanamichi sakuragi", "sakuragi", "حسان", "هاناميتشي ساكوراجي"],
+    "englishName": "Hanamichi Sakuragi",
+    "arabicName": "حسان",
+    "imagePath": "/assets/images/characters/sakuragi-full.png",
+    "gifUrl": "/assets/images/characters/sakuragi-full.png",
+    "infos": {
+      "age": "16",
+      "planet": "Riyada (رياضة)",
+      "gender": "Male",
+      "specialSkill": "Rebounding"
+    },
+    "imageHints": [
+      "/assets/images/characters/sakuragi-full.png",
+      "/assets/images/characters/sakuragi-full.png",
+      "/assets/images/characters/sakuragi-full.png",
+      "/assets/images/characters/sakuragi-full.png"
+    ]
+  },
+  {
+    "id": "rukawa",
+    "acceptedNames": ["kaede rukawa", "rukawa", "فادي", "روكاوا"],
+    "englishName": "Kaede Rukawa",
+    "arabicName": "فادي",
+    "imagePath": "/assets/images/characters/rukawa-full.png",
+    "gifUrl": "/assets/images/characters/rukawa-full.png",
+    "infos": {
+      "age": "16",
+      "planet": "Riyada (رياضة)",
+      "gender": "Male",
+      "specialSkill": "Slam Dunk"
+    },
+    "imageHints": [
+      "/assets/images/characters/rukawa-full.png",
+      "/assets/images/characters/rukawa-full.png",
+      "/assets/images/characters/rukawa-full.png",
+      "/assets/images/characters/rukawa-full.png"
+    ]
+  },
+  {
+    "id": "tsubasa",
+    "acceptedNames": ["tsubasa", "tsubasa ozora", "ماجد", "الكابتن ماجد"],
+    "englishName": "Tsubasa Ozora",
+    "arabicName": "الكابتن ماجد",
+    "imagePath": "/assets/images/characters/tsubasa-full.png",
+    "gifUrl": "/assets/images/characters/tsubasa-full.png",
+    "infos": {
+      "age": "12-15",
+      "planet": "Riyada (رياضة)",
+      "gender": "Male",
+      "specialSkill": "Drive Shoot"
+    },
+    "imageHints": [
+      "/assets/images/characters/tsubasa-full.png",
+      "/assets/images/characters/tsubasa-full.png",
+      "/assets/images/characters/tsubasa-full.png",
+      "/assets/images/characters/tsubasa-full.png"
+    ]
+  },
+  {
+    "id": "hyuga",
+    "acceptedNames": ["kojiro hyuga", "hyuga", "بسّام", "بسام"],
+    "englishName": "Kojiro Hyuga",
+    "arabicName": "بسّام",
+    "imagePath": "/assets/images/characters/hyuga-full.png",
+    "gifUrl": "/assets/images/characters/hyuga-full.png",
+    "infos": {
+      "age": "12-15",
+      "planet": "Riyada (رياضة)",
+      "gender": "Male",
+      "specialSkill": "Tiger Shot"
+    },
+    "imageHints": [
+      "/assets/images/characters/hyuga-full.png",
+      "/assets/images/characters/hyuga-full.png",
+      "/assets/images/characters/hyuga-full.png",
+      "/assets/images/characters/hyuga-full.png"
+    ]
+  },
+  {
+    "id": "goura",
+    "acceptedNames": ["endou mamoru", "endou", "عامر", "أندو مامورو"],
+    "englishName": "Endou Mamoru",
+    "arabicName": "عامر",
+    "imagePath": "/assets/images/characters/endou-full.png",
+    "gifUrl": "/assets/images/characters/endou-full.png",
+    "infos": {
+      "age": "13-14",
+      "planet": "Riyada (رياضة)",
+      "gender": "Male",
+      "specialSkill": "God Hand"
+    },
+    "imageHints": [
+      "/assets/images/characters/endou-full.png",
+      "/assets/images/characters/endou-full.png",
+      "/assets/images/characters/endou-full.png",
+      "/assets/images/characters/endou-full.png"
+    ]
+  },
+  {
+    "id": "goenji",
+    "acceptedNames": ["shuya goenji", "goenji", "زين", "شويا غوينجي"],
+    "englishName": "Shuya Goenji",
+    "arabicName": "زين",
+    "imagePath": "/assets/images/characters/goenji-full.png",
+    "gifUrl": "/assets/images/characters/goenji-full.png",
+    "infos": {
+      "age": "13-14",
+      "planet": "Riyada (رياضة)",
+      "gender": "Male",
+      "specialSkill": "Fire Tornado"
+    },
+    "imageHints": [
+      "/assets/images/characters/goenji-full.png",
+      "/assets/images/characters/goenji-full.png",
+      "/assets/images/characters/goenji-full.png",
+      "/assets/images/characters/goenji-full.png"
+    ]
+  },
+  {
+    "id": "tai",
+    "acceptedNames": ["taichi yagami", "tai", "أمجد", "تايتشي"],
+    "englishName": "Taichi Yagami",
+    "arabicName": "أمجد",
+    "imagePath": "/assets/images/characters/tai-full.png",
+    "gifUrl": "/assets/images/characters/tai-full.png",
+    "infos": {
+      "age": "11",
+      "planet": "Moghamarat (مغامرات)",
+      "gender": "Male",
+      "specialSkill": "Courage Crest Leadership"
+    },
+    "imageHints": [
+      "/assets/images/characters/tai-full.png",
+      "/assets/images/characters/tai-full.png",
+      "/assets/images/characters/tai-full.png",
+      "/assets/images/characters/tai-full.png"
+    ]
+  },
+  {
+    "id": "matt",
+    "acceptedNames": ["yamato ishida", "matt", "يامن", "ياماتو"],
+    "englishName": "Yamato Ishida",
+    "arabicName": "يامن",
+    "imagePath": "/assets/images/characters/matt-full.png",
+    "gifUrl": "/assets/images/characters/matt-full.png",
+    "infos": {
+      "age": "11",
+      "planet": "Moghamarat (مغامرات)",
+      "gender": "Male",
+      "specialSkill": "Friendship Crest Leadership"
+    },
+    "imageHints": [
+      "/assets/images/characters/matt-full.png",
+      "/assets/images/characters/matt-full.png",
+      "/assets/images/characters/matt-full.png",
+      "/assets/images/characters/matt-full.png"
+    ]
+  },
+  {
+    "id": "agumon",
+    "acceptedNames": ["agumon", "رعد", "أغومون"],
+    "englishName": "Agumon",
+    "arabicName": "رعد",
+    "imagePath": "/assets/images/characters/agumon-full.png",
+    "gifUrl": "/assets/images/characters/agumon-full.png",
+    "infos": {
+      "age": "Unknown",
+      "planet": "Moghamarat (مغامرات)",
+      "gender": "Male",
+      "specialSkill": "Pepper Breath"
+    },
+    "imageHints": [
+      "/assets/images/characters/agumon-full.png",
+      "/assets/images/characters/agumon-full.png",
+      "/assets/images/characters/agumon-full.png",
+      "/assets/images/characters/agumon-full.png"
+    ]
+  },
+  {
+    "id": "ash",
+    "acceptedNames": ["ash ketchum", "ash", "أش", "أش كيتشام"],
+    "englishName": "Ash Ketchum",
+    "arabicName": "أش كيتشام",
+    "imagePath": "/assets/images/characters/ash-full.png",
+    "gifUrl": "/assets/images/characters/ash-full.png",
+    "infos": {
+      "age": "10",
+      "planet": "Moghamarat (مغامرات)",
+      "gender": "Male",
+      "specialSkill": "Pokemon Training"
+    },
+    "imageHints": [
+      "/assets/images/characters/ash-full.png",
+      "/assets/images/characters/ash-full.png",
+      "/assets/images/characters/ash-full.png",
+      "/assets/images/characters/ash-full.png"
+    ]
+  },
+  {
+    "id": "pikachu",
+    "acceptedNames": ["pikachu", "بيكابتشو", "بيكاتشو"],
+    "englishName": "Pikachu",
+    "arabicName": "بيكاتشو",
+    "imagePath": "/assets/images/characters/pikachu-full.png",
+    "gifUrl": "/assets/images/characters/pikachu-full.png",
+    "infos": {
+      "age": "Unknown",
+      "planet": "Moghamarat (مغامرات)",
+      "gender": "Male",
+      "specialSkill": "Thunderbolt"
+    },
+    "imageHints": [
+      "/assets/images/characters/pikachu-full.png",
+      "/assets/images/characters/pikachu-full.png",
+      "/assets/images/characters/pikachu-full.png",
+      "/assets/images/characters/pikachu-full.png"
+    ]
+  },
+  {
+    "id": "yugi",
+    "acceptedNames": ["yugi mutou", "yugi", "يوغي", "يوغي موتو"],
+    "englishName": "Yugi Muto",
+    "arabicName": "يوغي موتو",
+    "imagePath": "/assets/images/characters/yugi-full.png",
+    "gifUrl": "/assets/images/characters/yugi-full.png",
+    "infos": {
+      "age": "15-16",
+      "planet": "Action (أكشن)",
+      "gender": "Male",
+      "specialSkill": "Duel Monsters Strategy"
+    },
+    "imageHints": [
+      "/assets/images/characters/yugi-full.png",
+      "/assets/images/characters/yugi-full.png",
+      "/assets/images/characters/yugi-full.png",
+      "/assets/images/characters/yugi-full.png"
+    ]
+  },
+  {
+    "id": "kaiba",
+    "acceptedNames": ["seto kaiba", "kaiba", "سيتو كايبا", "كايبا"],
+    "englishName": "Seto Kaiba",
+    "arabicName": "سيتو كايبا",
+    "imagePath": "/assets/images/characters/kaiba-full.png",
+    "gifUrl": "/assets/images/characters/kaiba-full.png",
+    "infos": {
+      "age": "16",
+      "planet": "Action (أكشن)",
+      "gender": "Male",
+      "specialSkill": "Summoning Blue-Eyes White Dragon"
+    },
+    "imageHints": [
+      "/assets/images/characters/kaiba-full.png",
+      "/assets/images/characters/kaiba-full.png",
+      "/assets/images/characters/kaiba-full.png",
+      "/assets/images/characters/kaiba-full.png"
+    ]
+  },
+  {
+    "id": "retsu",
+    "acceptedNames": ["retsu seiba", "retsu", "سابق", "ريتسو"],
+    "englishName": "Retsu Seiba",
+    "arabicName": "سابق",
+    "imagePath": "/assets/images/characters/retsu-full.png",
+    "gifUrl": "/assets/images/characters/retsu-full.png",
+    "infos": {
+      "age": "11",
+      "planet": "Riyada (رياضة)",
+      "gender": "Male",
+      "specialSkill": "Sonic Car Control"
+    },
+    "imageHints": [
+      "/assets/images/characters/retsu-full.png",
+      "/assets/images/characters/retsu-full.png",
+      "/assets/images/characters/retsu-full.png",
+      "/assets/images/characters/retsu-full.png"
+    ]
+  },
+  {
+    "id": "go",
+    "acceptedNames": ["go seiba", "go", "لاحق", "غو"],
+    "englishName": "Go Seiba",
+    "arabicName": "لاحق",
+    "imagePath": "/assets/images/characters/go-full.png",
+    "gifUrl": "/assets/images/characters/go-full.png",
+    "infos": {
+      "age": "10",
+      "planet": "Riyada (رياضة)",
+      "gender": "Male",
+      "specialSkill": "Magnum Car Control"
+    },
+    "imageHints": [
+      "/assets/images/characters/go-full.png",
+      "/assets/images/characters/go-full.png",
+      "/assets/images/characters/go-full.png",
+      "/assets/images/characters/go-full.png"
+    ]
+  },
+  {
+    "id": "tyson",
+    "acceptedNames": ["tyson granger", "tyson", "منصور", "تايسون"],
+    "englishName": "Tyson Granger",
+    "arabicName": "منصور",
+    "imagePath": "/assets/images/characters/tyson-full.png",
+    "gifUrl": "/assets/images/characters/tyson-full.png",
+    "infos": {
+      "age": "13",
+      "planet": "Riyada (رياضة)",
+      "gender": "Male",
+      "specialSkill": "Dragoon Beyblade Attack"
+    },
+    "imageHints": [
+      "/assets/images/characters/tyson-full.png",
+      "/assets/images/characters/tyson-full.png",
+      "/assets/images/characters/tyson-full.png",
+      "/assets/images/characters/tyson-full.png"
+    ]
+  },
+  {
+    "id": "kai",
+    "acceptedNames": ["kai hiwatari", "kai", "علاء", "كاي"],
+    "englishName": "Kai Hiwatari",
+    "arabicName": "علاء",
+    "imagePath": "/assets/images/characters/kai-full.png",
+    "gifUrl": "/assets/images/characters/kai-full.png",
+    "infos": {
+      "age": "14",
+      "planet": "Riyada (رياضة)",
+      "gender": "Male",
+      "specialSkill": "Dranzer Fire Attack"
+    },
+    "imageHints": [
+      "/assets/images/characters/kai-full.png",
+      "/assets/images/characters/kai-full.png",
+      "/assets/images/characters/kai-full.png",
+      "/assets/images/characters/kai-full.png"
+    ]
+  },
+  {
+    "id": "gingka",
+    "acceptedNames": ["gingka hagane", "gingka", "يمان", "جينكا"],
+    "englishName": "Gingka Hagane",
+    "arabicName": "يمان",
+    "imagePath": "/assets/images/characters/gingka-full.png",
+    "gifUrl": "/assets/images/characters/gingka-full.png",
+    "infos": {
+      "age": "12",
+      "planet": "Riyada (رياضة)",
+      "gender": "Male",
+      "specialSkill": "Pegasus Starblast Attack"
+    },
+    "imageHints": [
+      "/assets/images/characters/gingka-full.png",
+      "/assets/images/characters/gingka-full.png",
+      "/assets/images/characters/gingka-full.png",
+      "/assets/images/characters/gingka-full.png"
+    ]
+  },
+  {
+    "id": "doremon",
+    "acceptedNames": ["doraemon", "doremon", "دوريمون", "عبقور"],
+    "englishName": "Doraemon",
+    "arabicName": "عبقور",
+    "imagePath": "/assets/images/characters/doraemon-full.png",
+    "gifUrl": "/assets/images/characters/doraemon-full.png",
+    "infos": {
+      "age": "Unknown",
+      "planet": "Kowkabeh (كوكب آخر)",
+      "gender": "Male",
+      "specialSkill": "4D Gadget Pocket"
+    },
+    "imageHints": [
+      "/assets/images/characters/doraemon-full.png",
+      "/assets/images/characters/doraemon-full.png",
+      "/assets/images/characters/doraemon-full.png",
+      "/assets/images/characters/doraemon-full.png"
+    ]
+  },
+  {
+    "id": "remy",
+    "acceptedNames": ["remy", "nobodys girl remy", "ريمي", "دروب ريمي"],
+    "englishName": "Remy",
+    "arabicName": "ريمي",
+    "imagePath": "/assets/images/characters/remy-full.png",
+    "gifUrl": "/assets/images/characters/remy-full.png",
+    "infos": {
+      "age": "10-12",
+      "planet": "Zomorroda (زمردة)",
+      "gender": "Female",
+      "specialSkill": "Singing"
+    },
+    "imageHints": [
+      "/assets/images/characters/remy-full.png",
+      "/assets/images/characters/remy-full.png",
+      "/assets/images/characters/remy-full.png",
+      "/assets/images/characters/remy-full.png"
+    ]
+  },
+  {
+    "id": "sally",
+    "acceptedNames": ["sally", "princess sarah", "سالي", "الأميرة سالي"],
+    "englishName": "Sarah Crewe",
+    "arabicName": "سالي",
+    "imagePath": "/assets/images/characters/sally-full.png",
+    "gifUrl": "/assets/images/characters/sally-full.png",
+    "infos": {
+      "age": "10-11",
+      "planet": "Zomorroda (زمردة)",
+      "gender": "Female",
+      "specialSkill": "Storytelling & Resilience"
+    },
+    "imageHints": [
+      "/assets/images/characters/sally-full.png",
+      "/assets/images/characters/sally-full.png",
+      "/assets/images/characters/sally-full.png",
+      "/assets/images/characters/sally-full.png"
+    ]
+  },
+  {
+    "id": "anne",
+    "acceptedNames": ["anne", "anne of green gables", "آن", "آن أوف غرين غابلز"],
+    "englishName": "Anne Shirley",
+    "arabicName": "آن",
+    "imagePath": "/assets/images/characters/anne-full.png",
+    "gifUrl": "/assets/images/characters/anne-full.png",
+    "infos": {
+      "age": "11-16",
+      "planet": "Zomorroda (زمردة)",
+      "gender": "Female",
+      "specialSkill": "Vivid Imagination"
+    },
+    "imageHints": [
+      "/assets/images/characters/anne-full.png",
+      "/assets/images/characters/anne-full.png",
+      "/assets/images/characters/anne-full.png",
+      "/assets/images/characters/anne-full.png"
+    ]
+  },
+  {
+    "id": "judy",
+    "acceptedNames": ["judy abbott", "judy", "جودي أبت", "جودي"],
+    "englishName": "Judy Abbott",
+    "arabicName": "جودي أبت",
+    "imagePath": "/assets/images/characters/judy-full.png",
+    "gifUrl": "/assets/images/characters/judy-full.png",
+    "infos": {
+      "age": "14-18",
+      "planet": "Zomorroda (زمردة)",
+      "gender": "Female",
+      "specialSkill": "Writing Letters"
+    },
+    "imageHints": [
+      "/assets/images/characters/judy-full.png",
+      "/assets/images/characters/judy-full.png",
+      "/assets/images/characters/judy-full.png",
+      "/assets/images/characters/judy-full.png"
+    ]
+  },
+  {
+    "id": "mowgli",
+    "acceptedNames": ["mowgli", "ماوكلي", "فتى الأدغال"],
+    "englishName": "Mowgli",
+    "arabicName": "ماوكلي",
+    "imagePath": "/assets/images/characters/mowgli-full.png",
+    "gifUrl": "/assets/images/characters/mowgli-full.png",
+    "infos": {
+      "age": "10",
+      "planet": "Moghamarat (مغامرات)",
+      "gender": "Male",
+      "specialSkill": "Jungle Survival"
+    },
+    "imageHints": [
+      "/assets/images/characters/mowgli-full.png",
+      "/assets/images/characters/mowgli-full.png",
+      "/assets/images/characters/mowgli-full.png",
+      "/assets/images/characters/mowgli-full.png"
+    ]
+  },
+  {
+    "id": "simba",
+    "acceptedNames": ["simba", "سيمبا", "الأسد سيمبا"],
+    "englishName": "Simba",
+    "arabicName": "سيمبا",
+    "imagePath": "/assets/images/characters/simba-full.png",
+    "gifUrl": "/assets/images/characters/simba-full.png",
+    "infos": {
+      "age": "Young Adult",
+      "planet": "Moghamarat (مغامرات)",
+      "gender": "Male",
+      "specialSkill": "Roar of Leadership"
+    },
+    "imageHints": [
+      "/assets/images/characters/simba-full.png",
+      "/assets/images/characters/simba-full.png",
+      "/assets/images/characters/simba-full.png",
+      "/assets/images/characters/simba-full.png"
+    ]
+  },
+  {
+    "id": "sinbad",
+    "acceptedNames": ["sinbad", "سندباد", "المغامر سندباد"],
+    "englishName": "Sinbad",
+    "arabicName": "سندباد",
+    "imagePath": "/assets/images/characters/sinbad-full.png",
+    "gifUrl": "/assets/images/characters/sinbad-full.png",
+    "infos": {
+      "age": "12",
+      "planet": "Moghamarat (مغامرات)",
+      "gender": "Male",
+      "specialSkill": "Sailing & Swordsmanship"
+    },
+    "imageHints": [
+      "/assets/images/characters/sinbad-full.png",
+      "/assets/images/characters/sinbad-full.png",
+      "/assets/images/characters/sinbad-full.png",
+      "/assets/images/characters/sinbad-full.png"
+    ]
+  },
+  {
+    "id": "aladdin",
+    "acceptedNames": ["aladdin", "علاء الدين"],
+    "englishName": "Aladdin",
+    "arabicName": "علاء الدين",
+    "imagePath": "/assets/images/characters/aladdin-full.png",
+    "gifUrl": "/assets/images/characters/aladdin-full.png",
+    "infos": {
+      "age": "18",
+      "planet": "Moghamarat (مغامرات)",
+      "gender": "Male",
+      "specialSkill": "Agility & Resourcefulness"
+    },
+    "imageHints": [
+      "/assets/images/characters/aladdin-full.png",
+      "/assets/images/characters/aladdin-full.png",
+      "/assets/images/characters/aladdin-full.png",
+      "/assets/images/characters/aladdin-full.png"
+    ]
+  },
+  {
+    "id": "tom",
+    "acceptedNames": ["tom", "tom cat", "توم", "القط توم"],
+    "englishName": "Tom",
+    "arabicName": "توم",
+    "imagePath": "/assets/images/characters/tom-full.png",
+    "gifUrl": "/assets/images/characters/tom-full.png",
+    "infos": {
+      "age": "Adult",
+      "planet": "Komidia (كوميديا)",
+      "gender": "Male",
+      "specialSkill": "Setting Traps"
+    },
+    "imageHints": [
+      "/assets/images/characters/tom-full.png",
+      "/assets/images/characters/tom-full.png",
+      "/assets/images/characters/tom-full.png",
+      "/assets/images/characters/tom-full.png"
+    ]
+  },
+  {
+    "id": "jerry",
+    "acceptedNames": ["jerry", "jerry mouse", "جيري", "الفأر جيري"],
+    "englishName": "Jerry",
+    "arabicName": "جيري",
+    "imagePath": "/assets/images/characters/jerry-full.png",
+    "gifUrl": "/assets/images/characters/jerry-full.png",
+    "infos": {
+      "age": "Adult",
+      "planet": "Komidia (كوميديا)",
+      "gender": "Male",
+      "specialSkill": "Outsmarting Traps"
+    },
+    "imageHints": [
+      "/assets/images/characters/jerry-full.png",
+      "/assets/images/characters/jerry-full.png",
+      "/assets/images/characters/jerry-full.png",
+      "/assets/images/characters/jerry-full.png"
+    ]
+  },
+  {
+    "id": "popeye",
+    "acceptedNames": ["popeye", "بوباي", "باباي"],
+    "englishName": "Popeye",
+    "arabicName": "بوباي",
+    "imagePath": "/assets/images/characters/popeye-full.png",
+    "gifUrl": "/assets/images/characters/popeye-full.png",
+    "infos": {
+      "age": "30s",
+      "planet": "Komidia (كوميديا)",
+      "gender": "Male",
+      "specialSkill": "Super Strength (via Spinach)"
+    },
+    "imageHints": [
+      "/assets/images/characters/popeye-full.png",
+      "/assets/images/characters/popeye-full.png",
+      "/assets/images/characters/popeye-full.png",
+      "/assets/images/characters/popeye-full.png"
+    ]
+  },
+  {
+    "id": "pinkpanther",
+    "acceptedNames": ["pink panther", "النمر الوردي"],
+    "englishName": "Pink Panther",
+    "arabicName": "النمر الوردي",
+    "imagePath": "/assets/images/characters/pinkpanther-full.png",
+    "gifUrl": "/assets/images/characters/pinkpanther-full.png",
+    "infos": {
+      "age": "Unknown",
+      "planet": "Komidia (كوميديا)",
+      "gender": "Male",
+      "specialSkill": "Stealth & Clever Pranks"
+    },
+    "imageHints": [
+      "/assets/images/characters/pinkpanther-full.png",
+      "/assets/images/characters/pinkpanther-full.png",
+      "/assets/images/characters/pinkpanther-full.png",
+      "/assets/images/characters/pinkpanther-full.png"
+    ]
+  },
+  {
+    "id": "woody",
+    "acceptedNames": ["woody woodpecker", "وودي والفي", "وودي النقار", "نقار الخشب"],
+    "englishName": "Woody Woodpecker",
+    "arabicName": "وودي نقار الخشب",
+    "imagePath": "/assets/images/characters/woody-full.png",
+    "gifUrl": "/assets/images/characters/woody-full.png",
+    "infos": {
+      "age": "Adult",
+      "planet": "Komidia (كوميديا)",
+      "gender": "Male",
+      "specialSkill": "Iconic Laugh & Pecking"
+    },
+    "imageHints": [
+      "/assets/images/characters/woody-full.png",
+      "/assets/images/characters/woody-full.png",
+      "/assets/images/characters/woody-full.png",
+      "/assets/images/characters/woody-full.png"
+    ]
+  },
+  {
+    "id": "ben10",
+    "acceptedNames": ["ben tennyson", "ben 10", "بن 10", "بن تن"],
+    "englishName": "Ben Tennyson",
+    "arabicName": "بن 10",
+    "imagePath": "/assets/images/characters/ben10-full.png",
+    "gifUrl": "/assets/images/characters/ben10-full.png",
+    "infos": {
+      "age": "10",
+      "planet": "Action (أكشن)",
+      "gender": "Male",
+      "specialSkill": "Omnitrix Alien Transformation"
+    },
+    "imageHints": [
+      "/assets/images/characters/ben10-full.png",
+      "/assets/images/characters/ben10-full.png",
+      "/assets/images/characters/ben10-full.png",
+      "/assets/images/characters/ben10-full.png"
+    ]
+  },
+  {
+    "id": "kaito_kid",
+    "acceptedNames": ["kaito kid", "phantom thief kid", "كايتو كيد", "اللص الطائر"],
+    "englishName": "Kaito Kid",
+    "arabicName": "كايتو كيد",
+    "imagePath": "/assets/images/characters/kaitokid-full.png",
+    "gifUrl": "/assets/images/characters/kaitokid-full.png",
+    "infos": {
+      "age": "17",
+      "planet": "Moghamarat (مغامرات)",
+      "gender": "Male",
+      "specialSkill": "Disguise & Magic Tricks"
+    },
+    "imageHints": [
+      "/assets/images/characters/kaitokid-full.png",
+      "/assets/images/characters/kaitokid-full.png",
+      "/assets/images/characters/kaitokid-full.png",
+      "/assets/images/characters/kaitokid-full.png"
+    ]
+  },
+  {
+    "id": "ran",
+    "acceptedNames": ["ran mouri", "ran", "ران", "ران موري"],
+    "englishName": "Ran Mouri",
+    "arabicName": "ران موري",
+    "imagePath": "/assets/images/characters/ran-full.png",
+    "gifUrl": "/assets/images/characters/ran-full.png",
+    "infos": {
+      "age": "16-17",
+      "planet": "Moghamarat (مغامرات)",
+      "gender": "Female",
+      "specialSkill": "Karate Champion"
+    },
+    "imageHints": [
+      "/assets/images/characters/ran-full.png",
+      "/assets/images/characters/ran-full.png",
+      "/assets/images/characters/ran-full.png",
+      "/assets/images/characters/ran-full.png"
+    ]
+  },
+  {
+    "id": "inuyasha",
+    "acceptedNames": ["inuyasha", "إنيوشا", "اينوشا"],
+    "englishName": "Inuyasha",
+    "arabicName": "إنيوشا",
+    "imagePath": "/assets/images/characters/inuyasha-full.png",
+    "gifUrl": "/assets/images/characters/inuyasha-full.png",
+    "infos": {
+      "age": "15 (Physically) / 200+",
+      "planet": "Action (أكشن)",
+      "gender": "Male",
+      "specialSkill": "Tessaiga Sword Attacks"
+    },
+    "imageHints": [
+      "/assets/images/characters/inuyasha-full.png",
+      "/assets/images/characters/inuyasha-full.png",
+      "/assets/images/characters/inuyasha-full.png",
+      "/assets/images/characters/inuyasha-full.png"
+    ]
+  },
+  {
+    "id": "kenshin",
+    "acceptedNames": ["kenshin himura", "kenshin", "كينشن", "ساموراي X"],
+    "englishName": "Kenshin Himura",
+    "arabicName": "كينشن",
+    "imagePath": "/assets/images/characters/kenshin-full.png",
+    "gifUrl": "/assets/images/characters/kenshin-full.png",
+    "infos": {
+      "age": "28",
+      "planet": "Action (أكشن)",
+      "gender": "Male",
+      "specialSkill": "Hiten Mitsurugi-ryu Swordsmanship"
+    },
+    "imageHints": [
+      "/assets/images/characters/kenshin-full.png",
+      "/assets/images/characters/kenshin-full.png",
+      "/assets/images/characters/kenshin-full.png",
+      "/assets/images/characters/kenshin-full.png"
+    ]
+  },
+  {
+    "id": "dorami",
+    "acceptedNames": ["dorami", "دورامي"],
+    "englishName": "Dorami",
+    "arabicName": "دورامي",
+    "imagePath": "/assets/images/characters/dorami-full.png",
+    "gifUrl": "/assets/images/characters/dorami-full.png",
+    "infos": {
+      "age": "Unknown",
+      "planet": "Kowkabeh (كوكب آخر)",
+      "gender": "Female",
+      "specialSkill": "Advanced 22nd Century Gadgets"
+    },
+    "imageHints": [
+      "/assets/images/characters/dorami-full.png",
+      "/assets/images/characters/dorami-full.png",
+      "/assets/images/characters/dorami-full.png",
+      "/assets/images/characters/dorami-full.png"
+    ]
+  },
+  {
+    "id": "optimus_prime",
+    "acceptedNames": ["optimus prime", "أوبتيموس برايم", "المتحولون"],
+    "englishName": "Optimus Prime",
+    "arabicName": "أوبتيموس برايم",
+    "imagePath": "/assets/images/characters/optimus-full.png",
+    "gifUrl": "/assets/images/characters/optimus-full.png",
+    "infos": {
+      "age": "Millions of years",
+      "planet": "Action (أكشن)",
+      "gender": "Male",
+      "specialSkill": "Truck Transformation & Matrix of Leadership"
+    },
+    "imageHints": [
+      "/assets/images/characters/optimus-full.png",
+      "/assets/images/characters/optimus-full.png",
+      "/assets/images/characters/optimus-full.png",
+      "/assets/images/characters/optimus-full.png"
+    ]
+  },
+  {
+    "id": "pello",
+    "acceptedNames": ["heidi", "هايدي"],
+    "englishName": "Heidi",
+    "arabicName": "هايدي",
+    "imagePath": "/assets/images/characters/heidi-full.png",
+    "gifUrl": "/assets/images/characters/heidi-full.png",
+    "infos": {
+      "age": "5-8",
+      "planet": "Zomorroda (زمردة)",
+      "gender": "Female",
+      "specialSkill": "Spreading Joy & Mountain Life"
+    },
+    "imageHints": [
+      "/assets/images/characters/heidi-full.png",
+      "/assets/images/characters/heidi-full.png",
+      "/assets/images/characters/heidi-full.png",
+      "/assets/images/characters/heidi-full.png"
+    ]
+  },
+  {
+    "id": "sanford",
+    "acceptedNames": ["sindbad", "سنبل", "سندباد المعلم"],
+    "englishName": "Sonbel",
+    "arabicName": "سنبل",
+    "imagePath": "/assets/images/characters/sonbel-full.png",
+    "gifUrl": "/assets/images/characters/sonbel-full.png",
+    "infos": {
+      "age": "Unknown",
+      "planet": "Bonbon (بون بون)",
+      "gender": "Male",
+      "specialSkill": "Magical Assistance"
+    },
+    "imageHints": [
+      "/assets/images/characters/sonbel-full.png",
+      "/assets/images/characters/sonbel-full.png",
+      "/assets/images/characters/sonbel-full.png",
+      "/assets/images/characters/sonbel-full.png"
+    ]
+  },
+  {
+    "id": "babar",
+    "acceptedNames": ["babar", "بايل", "بابار"],
+    "englishName": "Babar",
+    "arabicName": "بابار",
+    "imagePath": "/assets/images/characters/babar-full.png",
+    "gifUrl": "/assets/images/characters/babar-full.png",
+    "infos": {
+      "age": "Adult",
+      "planet": "Bonbon (بون بون)",
+      "gender": "Male",
+      "specialSkill": "Wise Rulership"
+    },
+    "imageHints": [
+      "/assets/images/characters/babar-full.png",
+      "/assets/images/characters/babar-full.png",
+      "/assets/images/characters/babar-full.png",
+      "/assets/images/characters/babar-full.png"
+    ]
+  },
+  {
+    "id": "tweety",
+    "acceptedNames": ["tweety", "تويتي"],
+    "englishName": "Tweety",
+    "arabicName": "تويتي",
+    "imagePath": "/assets/images/characters/tweety-full.png",
+    "gifUrl": "/assets/images/characters/tweety-full.png",
+    "infos": {
+      "age": "Young",
+      "planet": "Komidia (كوميديا)",
+      "gender": "Male",
+      "specialSkill": "Evading Sylvester"
+    },
+    "imageHints": [
+      "/assets/images/characters/tweety-full.png",
+      "/assets/images/characters/tweety-full.png",
+      "/assets/images/characters/tweety-full.png",
+      "/assets/images/characters/tweety-full.png"
+    ]
+  },
+  {
+    "id": "sylvester",
+    "acceptedNames": ["sylvester", "سيلفستر"],
+    "englishName": "Sylvester",
+    "arabicName": "سيلفستر",
+    "imagePath": "/assets/images/characters/sylvester-full.png",
+    "gifUrl": "/assets/images/characters/sylvester-full.png",
+    "infos": {
+      "age": "Adult",
+      "planet": "Komidia (كوميديا)",
+      "gender": "Male",
+      "specialSkill": "Bird Hunting Traps"
+    },
+    "imageHints": [
+      "/assets/images/characters/sylvester-full.png",
+      "/assets/images/characters/sylvester-full.png",
+      "/assets/images/characters/sylvester-full.png",
+      "/assets/images/characters/sylvester-full.png"
+    ]
+  }
