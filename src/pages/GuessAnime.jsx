@@ -6,6 +6,8 @@ import RulesModal from '../components/RulesModal';
 import Toast from '../components/Toast';
 import GameOverView from '../components/GameOverView';
 import GuessInput from '../components/GuessInput';
+import InfoBadges from '../components/InfoBadges';
+import ImageHintsGrid from '../components/ImageHintsGrid';
 
 // 🌍 Localized UI Translation Resource Maps
 const uiText = {
@@ -53,7 +55,7 @@ export default function GuessAnime() {
       playedIds.push(selected.id);
       localStorage.setItem('astrotoon_played_animes', JSON.stringify(playedIds));
     }
-    
+
     setRevealedHints(0);
     setGameStatus("playing");
   };
@@ -79,20 +81,36 @@ export default function GuessAnime() {
     }
   }, [revealedHints, toastMessage]);
 
-  if (!currentAnime) return <p className="text-center text-slate-400">Loading Galaxy Data...</p>;
+  if (!currentAnime) return <p className="text-center text-slate-400 font-mono">Loading Galaxy Data...</p>;
+
+  const localizedBadgeLabels = {
+    age: uiText.badges.year[lang],
+    planet: uiText.badges.planet[lang],
+    gender: uiText.badges.length[lang],
+    skill: uiText.badges.adaptations[lang]
+  };
+
+  const animeBadgeInfos = {
+    age: currentAnime.infos.releaseYear,
+    planet: currentAnime.infos.planet,
+    gender: currentAnime.infos.episodes,
+    specialSkill: currentAnime.infos.adaptations
+  };
 
   return (
     <div className="w-full flex flex-col items-center relative">
       {showRules && <RulesModal onClose={() => setShowRules(false)} />}
       {toastMessage && <Toast message={toastMessage} onClose={() => setToastMessage("")} />}
+      
       <div className="w-full flex justify-start mt-[-20px]">
         <Link 
           to="/" 
           className="flex items-center gap-2 px-4 py-2 rounded-xl border border-slate-700 bg-slate-900/60 text-slate-400 hover:text-amber-400 hover:border-amber-400 font-mono text-sm tracking-wider transition-all duration-300 shadow-md cursor-pointer"
         >
-          <span>⬅️</span> {uiText.backBtn[lang]}
+          <span>◀</span> {uiText.backBtn[lang]}
         </Link>
       </div>
+
       <h1 
         className="text-4xl md:text-5xl font-black text-amber-400 mb-7 mt-[-30px] tracking-widest text-center transition-all duration-300 font-nasalization"
       >
@@ -101,48 +119,16 @@ export default function GuessAnime() {
 
       {gameStatus === "playing" ? (
         <div className="w-full flex flex-col items-center gap-6">
+          {/* Reusable Badge Row */}
+          <InfoBadges infos={animeBadgeInfos} labels={localizedBadgeLabels} />
 
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-5 w-full px-4">
-            {[
-              { label: uiText.badges.year[lang], val: currentAnime.infos.releaseYear },
-              { label: uiText.badges.planet[lang], val: currentAnime.infos.planet },
-              { label: uiText.badges.length[lang], val: currentAnime.infos.episodes },
-              { label: uiText.badges.adaptations[lang], val: currentAnime.infos.adaptations }
-            ].map((info, idx) => (
-              <div 
-                key={idx} 
-                className="bg-slate-900/80 px-4 py-2.5 rounded-xl border-2 border-amber-400 text-center shadow-[4px_4px_0px_0px_rgba(56,189,248,0.3)] hover:scale-105 hover:shadow-[0_0_25px_rgba(56,189,248,0.3)] transition-all duration-300 group cursor-default"
-              >
-                <span className="text-[10px] md:text-xs font-mono text-slate-400 uppercase block tracking-wider transition-colors group-hover:text-amber-400">
-                  {info.label}
-                </span>
-                <span className="text-sm font-black text-white block truncate">
-                  {info.val}
-                </span>
-              </div>
-            ))}
-          </div>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-6 w-full px-4 max-w-3xl">
-            {currentAnime.imageHints.map((src, index) => {
-              const isRevealed = index < revealedHints;
-              return (
-                <div 
-                  key={index} 
-                  className={`aspect-square w-full rounded-2xl min-h-60 overflow-hidden border-2 bg-slate-950 relative transition-all duration-300 ${
-                    isRevealed 
-                      ? 'border-slate-700 shadow-md hover:scale-105 hover:shadow-[0_0_25px_rgba(56,189,248,0.3)]' 
-                      : 'border-slate-800 shadow-inner'
-                  }`}
-                >
-                  <img 
-                    src={isRevealed ? src : "/assets/images/cartoonHidden1.png"} 
-                    alt={isRevealed ? "Hint Asset" : "Hidden Card Placement"} 
-                    className={`w-full h-full object-fit transition-all duration-500 ${isRevealed ? 'animate-fade-in scale-100' : 'scale-95 opacity-80'}`} 
-                  />
-                </div>
-              );
-            })}
-          </div>
+          {/* Reusable Image Hints Grid / Mobile Slider with Flip Animation */}
+          <ImageHintsGrid 
+            hints={currentAnime.imageHints} 
+            revealedCount={revealedHints} 
+          />
+
+          {/* Controls */}
           <div className="flex gap-4 w-full max-w-md justify-center px-4">
             <button
               onClick={incrementHint}

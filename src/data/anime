@@ -1,41 +1,5 @@
-  {
-    "id": "dragon_ball",
-    "acceptedNames": ["dragon ball", "dragon ball z", "دراغون بول", "دراغون بول زد", "dbz"],
-    "englishName": "Dragon Ball",
-    "arabicName": "دراغون بول",
-    "gifUrl": "/assets/images/dragonball-firstHint.png",
-    "infos": {
-      "releaseYear": "1986",
-      "planet": "Action (أكشن)",
-      "episodes": "153 Episodes",
-      "adaptations": "Anime Series, Movies, Manga"
-    },
-    "imageHints": [
-      "/assets/images/dragonball-firstHint.png",
-      "/assets/images/dragonball-firstHint.png",
-      "/assets/images/dragonball-firstHint.png",
-      "/assets/images/dragonball-firstHint.png"
-    ]
-  },
-  {
-    "id": "captain_tsubasa",
-    "acceptedNames": ["captain tsubasa", "captain majed", "الكابتن ماجد", "كابتن ماجد", "ماجد"],
-    "englishName": "Captain Tsubasa",
-    "arabicName": "الكابتن ماجد",
-    "gifUrl": "/assets/images/majed-firstHint.png",
-    "infos": {
-      "releaseYear": "1983",
-      "planet": "Riyada (رياضة)",
-      "episodes": "128 Episodes",
-      "adaptations": "Anime Series, Manga"
-    },
-    "imageHints": [
-      "/assets/images/majed-firstHint.png",
-      "/assets/images/majed-firstHint.png",
-      "/assets/images/majed-firstHint.png",
-      "/assets/images/majed-firstHint.png"
-    ]
-  },
+
+,
   {
     "id": "slam_dunk",
     "acceptedNames": ["slam dunk", "سلام دانك", "سلام دانك", "slamdunk"],
@@ -435,25 +399,7 @@
       "/assets/images/themask-firstHint.png"
     ]
   },
-  {
-    "id": "pink_panther",
-    "acceptedNames": ["pink panther", "النمر الوردي", "نمر وردي"],
-    "englishName": "The Pink Panther",
-    "arabicName": "النمر الوردي",
-    "gifUrl": "/assets/images/pinkpanther-firstHint.png",
-    "infos": {
-      "releaseYear": "1969",
-      "planet": "Komedya (كوميديا)",
-      "episodes": "124 Episodes",
-      "adaptations": "Animated Series, Short Films"
-    },
-    "imageHints": [
-      "/assets/images/pinkpanther-firstHint.png",
-      "/assets/images/pinkpanther-firstHint.png",
-      "/assets/images/pinkpanther-firstHint.png",
-      "/assets/images/pinkpanther-firstHint.png"
-    ]
-  },
+
   {
     "id": "tom_and_jerry",
     "acceptedNames": ["tom and jerry", "tom & jerry", "توم وجيري", "توم و جيري"],

@@ -1,67 +1,86 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useLang } from '../context/LanguageContext'; 
 
 export default function Home() {
   const { lang } = useLang(); 
+  const [hoveredIdx, setHoveredIdx] = useState(null);
 
   const games = [
     { 
-      path: "/guess-character", 
-      image: "/assets/images/thumb-character.png",
-      glowColor: "hover:shadow-amber-500/20 hover:border-amber-400",
+      path: "/guess-character/pixel", 
+      image: "/assets/images/thumb-character1.png",
+      glowColor: "hover:shadow-red-500/30 hover:border-red-400",
+      activeGlow: "shadow-red-500/30 border-red-400",
       titles: {
-        en: "Guess the Character",
-        ar: "خمن الشخصية",
-        fr: "Devine le Personnage"
+        en: "Pixel Image Grid",
+        ar: "مصفوفة الصور المكسلة",
+        fr: "Grille d'Image Pixel"
+      }
+    },
+    { 
+      path: "/guess-character/traits", 
+      image: "/assets/images/thumb-character2.png",
+      glowColor: "hover:shadow-sky-500/30 hover:border-sky-400",
+      activeGlow: "shadow-sky-500/30 border-sky-400",
+      titles: {
+        en: "Characteristic Cards",
+        ar: "بطاقات المعلومات",
+        fr: "Cartes des Caractéristiques"
       }
     },
     { 
       path: "/guess-anime", 
       image: "/assets/images/thumb-cartoon.png",
-      glowColor: "hover:shadow-sky-500/20 hover:border-sky-400",
+      glowColor: "hover:shadow-amber-500/30 hover:border-amber-400",
+      activeGlow: "shadow-amber-500/30 border-amber-400",
       titles: {
         en: "Guess the Cartoon",
         ar: "خمن الكرتون",
         fr: "Devine le Dessin Animé"
       }
     },
-    { 
-      path: "/guess-song", 
-      image: "/assets/images/thumb-song.png",
-      glowColor: "hover:shadow-pink-500/20 hover:border-pink-500",
-      titles: {
-        en: "Complete the Song",
-        ar: "خمن تكملة الأغنية",
-        fr: "Complète la Chanson"
-      }
-    },
   ];
 
   return (
-    <div className="flex flex-col items-center w-full">
-      {/* 3-Cube Side-by-Side Responsive Layout */}
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-8 w-full max-w-5xl px-4 mb-3">
-        {games.map((game, idx) => (
-          <Link 
-            key={idx} 
-            to={game.path}
-            className={`flex flex-col items-center p-3 rounded-2xl border-2 border-sky-100/30 bg-sky-400/10 backdrop-blur-md transition-all duration-300 transform hover:-translate-y-2 shadow-lg ${game.glowColor}`}
-          >
-            <div className="w-full aspect-square rounded-xl overflow-hidden bg-slate-950/60 border border-slate-800/50">
-              <img 
-                src={game.image} 
-                alt={game.titles[lang]} 
-                className="w-full h-full object-fit hover:scale-105 transition-transform duration-500"
-              />
-            </div>
-            
-            {/* Title text updates dynamically based on the current language parameter selection */}
-            <h2 className="text-2xl font-bold text-slate-200 mt-4 mb-2 tracking-wide text-center">
-              {game.titles[lang]}
-            </h2>
-          </Link>
-        ))}
+    <div className="flex flex-col items-center w-full py-8">
+      {/* Container with Flex layout for smooth sizing transitions */}
+      <div className="flex flex-col md:flex-row items-center justify-center gap-6 w-full max-w-6xl px-4">
+        {games.map((game, idx) => {
+          const isHovered = hoveredIdx === idx;
+          const isAnotherHovered = hoveredIdx !== null && !isHovered;
+
+          return (
+            <Link 
+              key={idx} 
+              to={game.path}
+              onMouseEnter={() => setHoveredIdx(idx)}
+              onMouseLeave={() => setHoveredIdx(null)}
+              className={`flex flex-col items-center p-4 rounded-2xl border-2 bg-sky-400/10 backdrop-blur-md transition-all duration-500 ease-out shadow-lg w-full ${
+                isHovered 
+                  ? `md:w-[42%] scale-105 z-10 ${game.activeGlow}` 
+                  : isAnotherHovered 
+                    ? "md:w-[28%] scale-95 opacity-70 border-sky-100/20" 
+                    : "md:w-[33.33%] scale-100 border-sky-100/30"
+              }`}
+            >
+              {/* Aspect Ratio Container fixed to 16:9 (1920x1080 proportional) */}
+              <div className="w-full aspect-[16/9] rounded-xl overflow-hidden bg-slate-950/60 border border-slate-800/50">
+                <img 
+                  src={game.image} 
+                  alt={game.titles[lang]} 
+                  className={`w-full h-full object-cover transition-transform duration-500 ${
+                    isHovered ? "scale-110" : "scale-100"
+                  }`}
+                />
+              </div>
+              
+              <h2 className="text-xl md:text-2xl font-bold text-slate-200 mt-4 mb-2 tracking-wide text-center transition-colors duration-300">
+                {game.titles[lang]}
+              </h2>
+            </Link>
+          );
+        })}
       </div>
     </div>
   );

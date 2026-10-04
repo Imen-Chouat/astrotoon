@@ -29,3 +29,21 @@ body {
   font-family: var(--font-nasalization); 
   overflow-x: hidden;
 }
+
+.card-flip-container {
+  perspective: 1000px;
+}
+.card-flip-inner {
+  transition: transform 0.7s ease-in-out;
+  transform-style: preserve-3d;
+}
+.card-flipped {
+  transform: rotateY(180deg);
+}
+.card-face {
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+.card-face-back {
+  transform: rotateY(180deg);
+}

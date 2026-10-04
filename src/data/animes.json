@@ -36,5 +36,135 @@
       "/assets/images/animes/hints/conan3.png",
       "/assets/images/animes/hints/conan4.png"
     ]
+  },
+    {
+    "id": "doraemon",
+    "acceptedNames": ["doraemon", "عبقور", "دوريمون"],
+    "englishName": "Doraemon",
+    "arabicName": "عبقور",
+    "gifUrl": "/assets/images/cartoon/doraemon.png",
+    "infos": {
+      "releaseYear": "1979",
+      "planet": "Komedya (كوميديا)",
+      "episodes": "1787 Episodes",
+      "adaptations": "Anime Series, Manga, Movies"
+    },
+    "imageHints": [
+      "/assets/images/cartoon/hints/doraemon2.jpg",
+      "/assets/images/cartoon/hints/doraemon3.webp",
+      "/assets/images/cartoon/hints/doraemon1.webp",
+      "/assets/images/cartoon/hints/doraemon4.webp"
+    ]
+  },
+    {
+    "id": "jewelpet",
+    "acceptedNames": ["jewelpet", "جواهر", "رنين الجواهر", "حيوانات الجواهر"],
+    "englishName": "Jewelpet",
+    "arabicName": "رنين الجواهر",
+    "gifUrl": "/assets/images/cartoon/jewelpet.png",
+    "infos": {
+      "releaseYear": "2009",
+      "planet": "Zomorroda (زمردة)",
+      "episodes": "52 Episodes",
+      "adaptations": "Anime Series, Anime Film"
+    },
+    "imageHints": [
+      "/assets/images/cartoon/hints/jewelpet1.webp",
+      "/assets/images/cartoon/hints/jewelpet3.jpg",
+      "/assets/images/cartoon/hints/jewelpet2.webp",
+      "/assets/images/cartoon/hints/jewelpet4.webp"
+    ]
+  },
+    {
+    "id": "popeye",
+    "acceptedNames": ["popeye", "باباي", "باباي البحار"],
+    "englishName": "Popeye the Sailor",
+    "arabicName": "باباي",
+    "gifUrl": "/assets/images/cartoon/popeye.png",
+    "infos": {
+      "releaseYear": "1960",
+      "planet": "Komedya (كوميديا)",
+      "episodes": "220 Episodes",
+      "adaptations": "Animated Series, Comics"
+    },
+    "imageHints": [
+      "/assets/images/cartoon/hints/popeye1.webp",
+      "/assets/images/cartoon/hints/popeye2.jpg",
+      "/assets/images/cartoon/hints/popeye3.webp",
+      "/assets/images/cartoon/hints/popeye4.jpg"
+    ]
+  },
+    {
+    "id": "sinbad",
+    "acceptedNames": ["sinbad", "مغامرات سندباد", "سندباد"],
+    "englishName": "Arabian Nights: Sinbad's Adventures",
+    "arabicName": "سندباد",
+    "gifUrl": "/assets/images/cartoon/sinbad.png",
+    "infos": {
+      "releaseYear": "1975",
+      "planet": "Moghamarat (مغامرات)",
+      "episodes": "52 Episodes",
+      "adaptations": "Anime Series, Folklore"
+    },
+    "imageHints": [
+      "/assets/images/cartoon/hints/sinbad4.png",
+      "/assets/images/cartoon/hints/sinbad2.png",
+      "/assets/images/cartoon/hints/sinbad3.png",
+      "/assets/images/cartoon/hints/sinbad1.png"
+    ]
+  },{
+    "id": "pink_panther",
+    "acceptedNames": ["pink panther", "النمر الوردي", "نمر وردي"],
+    "englishName": "The Pink Panther",
+    "arabicName": "النمر الوردي",
+    "gifUrl": "/assets/images/cartoon/pinkpanther.png",
+    "infos": {
+      "releaseYear": "1969",
+      "planet": "Komedya (كوميديا)",
+      "episodes": "124 Episodes",
+      "adaptations": "Animated Series, Short Films"
+    },
+    "imageHints": [
+      "/assets/images/cartoon/hints/pinkpanther1.png",
+      "/assets/images/cartoon/hints/pinkpanther2.png",
+      "/assets/images/cartoon/hints/pinkpanther3.png",
+      "/assets/images/cartoon/hints/pinkpanther4.png"
+    ]
+  },  {
+    "id": "dragon_ball",
+    "acceptedNames": ["dragon ball", "dragon ball z", "دراغون بول", "دراغون بول زد", "dbz"],
+    "englishName": "Dragon Ball",
+    "arabicName": "دراغون بول",
+    "gifUrl": "/assets/images/cartoon/dragonball.png",
+    "infos": {
+      "releaseYear": "1986",
+      "planet": "Action (أكشن)",
+      "episodes": "153 Episodes",
+      "adaptations": "Anime Series, Movies, Manga"
+    },
+    "imageHints": [
+      "/assets/images/cartoon/hints/dragonball1.png",
+      "/assets/images/cartoon/hints/dragonball2.png",
+      "/assets/images/cartoon/hints/dragonball3.png",
+      "/assets/images/cartoon/hints/dragonball4.png"
+    ]
+  },  {
+    "id": "captain_tsubasa",
+    "acceptedNames": ["captain tsubasa", "captain majed", "الكابتن ماجد", "كابتن ماجد", "ماجد"],
+    "englishName": "Captain Tsubasa",
+    "arabicName": "الكابتن ماجد",
+    "gifUrl": "/assets/images/cartoon/majed.png",
+    "infos": {
+      "releaseYear": "1983",
+      "planet": "Riyada (رياضة)",
+      "episodes": "128 Episodes",
+      "adaptations": "Anime Series, Manga"
+    },
+    "imageHints": [
+      "/assets/images/cartoon/hints/majed1.png",
+      "/assets/images/cartoon/hints/majed2.png",
+      "/assets/images/cartoon/hints/majed3.png",
+      "/assets/images/cartoon/hints/majed4.png"
+    ]
   }
 ]

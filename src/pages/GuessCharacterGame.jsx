@@ -5,6 +5,8 @@ import RulesModal from '../components/RulesModal';
 import Toast from '../components/Toast';
 import GameOverView from '../components/GameOverView';
 import GuessInput from '../components/GuessInput';
+import InfoBadges from '../components/InfoBadges';
+import ImageHintsGrid from '../components/ImageHintsGrid';
 import { useLang } from '../context/LanguageContext';
 
 const GRID_SLICES = [
@@ -44,11 +46,8 @@ export default function GuessCharacterGame() {
   const isPixelMode = mode === 'pixel';
 
   const [currentChar, setCurrentChar] = useState(null);
-  
-  
   const [pixelHintsRevealed, setPixelHintsRevealed] = useState(1);
   const [traitHintsRevealed, setTraitHintsRevealed] = useState(0);
-  
   const [showRules, setShowRules] = useState(true);
   const [toastMessage, setToastMessage] = useState("");
   const [gameStatus, setGameStatus] = useState("playing");
@@ -125,6 +124,13 @@ export default function GuessCharacterGame() {
 
   const remainingHints = (isPixelMode ? 6 : 4) - (isPixelMode ? pixelHintsRevealed : traitHintsRevealed);
 
+  const localizedBadgeLabels = {
+    age: uiText.badges.age[lang],
+    planet: uiText.badges.planet[lang],
+    gender: uiText.badges.gender[lang],
+    skill: uiText.badges.skill[lang]
+  };
+
   return (
     <div className="w-full flex flex-col items-center relative">
       {showRules && <RulesModal onClose={() => setShowRules(false)} />}
@@ -132,16 +138,14 @@ export default function GuessCharacterGame() {
 
       <div className="w-full flex justify-start mt-[-20px]">
         <Link 
-          to="/guess-character" 
+          to="/" 
           className="flex items-center gap-2 px-4 py-2 rounded-xl border border-slate-700 bg-slate-900/60 text-slate-400 hover:text-amber-400 hover:border-amber-400 font-mono text-sm tracking-wider transition-all duration-300 shadow-md cursor-pointer"
         >
-          <span>⬅️</span> {uiText.backBtn[lang]}
+          <span></span> {uiText.backBtn[lang]}
         </Link>
       </div>
 
-      <h1 
-        className="text-4xl md:text-5xl font-black text-amber-400 mb-7 mt-[-30px] tracking-widest text-center transition-all duration-300 font-nasalization"
-      >
+      <h1 className="text-4xl md:text-5xl font-black text-amber-400 mb-7 mt-[-30px] tracking-widest text-center transition-all duration-300 font-nasalization">
         {isPixelMode ? uiText.pixelTitle[lang] : uiText.traitsTitle[lang]}
       </h1>
 
@@ -156,7 +160,7 @@ export default function GuessCharacterGame() {
                     key={index}
                     src={currentChar.imagePath}
                     alt=""
-                    className="absolute inset-0 w-full h-full object-cover select-none pointer-events-none transition-all duration-500"
+                    className="absolute inset-0 w-full h-full object-fit select-none pointer-events-none transition-all duration-500"
                     style={{
                       clipPath: clipStyle,
                       opacity: isSliceVisible ? 1 : 0,
@@ -171,49 +175,11 @@ export default function GuessCharacterGame() {
             </div>
           ) : (
             <div className="w-full flex flex-col items-center gap-8">
-              <div className="grid grid-cols-2 md:grid-cols-4 gap-5 w-full px-4">
-                {[
-                  { label: uiText.badges.age[lang], val: currentChar.infos.age },
-                  { label: uiText.badges.planet[lang], val: currentChar.infos.planet },
-                  { label: uiText.badges.gender[lang], val: currentChar.infos.gender },
-                  { label: uiText.badges.skill[lang], val: currentChar.infos.specialSkill }
-                ].map((info, idx) => (
-                  <div 
-                    key={idx} 
-                    className="bg-slate-900/80 px-4 py-2.5 rounded-xl border-2 border-amber-400 text-center shadow-[4px_4px_0px_0px_rgba(56,189,248,0.3)] hover:scale-105 hover:shadow-[0_0_25px_rgba(56,189,248,0.3)] transition-all duration-300 group cursor-default"
-                  >
-                    <span className="text-[10px] md:text-xs font-mono text-slate-400 uppercase block tracking-wider transition-colors group-hover:text-amber-400">
-                      {info.label}
-                    </span>
-                    <span className="text-sm font-black text-white block truncate">
-                      {info.val}
-                    </span>
-                  </div>
-                ))}
-              </div>
-              <div className="grid grid-cols-2 md:grid-cols-4 gap-6 w-full px-4 max-w-3xl">
-                {currentChar.imageHints.map((src, index) => {
-                  const isRevealed = index < traitHintsRevealed;
-                  return (
-                    <div 
-                      key={index} 
-                      className={`aspect-square w-full rounded-2xl min-h-60 overflow-hidden border-2 bg-slate-950 relative transition-all duration-300 ${
-                        isRevealed 
-                          ? 'border-slate-700 shadow-md hover:scale-105 hover:shadow-[0_0_25px_rgba(56,189,248,0.3)]' 
-                          : 'border-slate-800 shadow-inner'
-                      }`}
-                    >
-                      <img 
-                        src={isRevealed ? src : "/assets/images/cartoonHidden1.png"} 
-                        alt={isRevealed ? "Hint Asset" : "Hidden Card Placement"} 
-                        className={`w-full h-full object-fit transition-all duration-500 ${isRevealed ? 'animate-fade-in scale-100' : 'scale-95 opacity-80'}`} 
-                      />
-                    </div>
-                  );
-                })}
-              </div>
+              <InfoBadges infos={currentChar.infos} labels={localizedBadgeLabels} />
+              <ImageHintsGrid hints={currentChar.imageHints} revealedCount={traitHintsRevealed} />
             </div>
           )}
+
           <div className="flex gap-4 w-full max-w-md justify-center mt-1 px-4">
             <button
               onClick={incrementHint}

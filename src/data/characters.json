@@ -37,5 +37,84 @@
       "/assets/images/characters/hints/gon2.png",
       "/assets/images/characters/hints/gon.png"
     ]
+  },
+    {
+    "id": "doremon",
+    "acceptedNames": ["doraemon", "doremon", "دوريمون", "عبقور"],
+    "englishName": "Doraemon",
+    "arabicName": "عبقور",
+    "imagePath": "/assets/images/characters/Doraemon_silhoutte.png",
+    "gifUrl": "/assets/images/characters/Doraemon.png",
+    "infos": {
+      "age": "Unknown",
+      "planet": "Kowkabeh (كوكب آخر)",
+      "gender": "Male",
+      "specialSkill": "4D Gadget Pocket"
+    },
+    "imageHints": [
+      "/assets/images/characters/hints/doraemon1.png",
+      "/assets/images/characters/hints/doraemon2.png",
+      "/assets/images/characters/hints/doraemon2.webp",
+      "/assets/images/characters/hints/doraemon3.webp"
+    ]
+  },
+  {
+    "id": "goku",
+    "acceptedNames": ["goku", "son goku", "غوكو", "سون غوكو"],
+    "englishName": "Goku",
+    "arabicName": "غوكو",
+    "imagePath": "/assets/images/characters/Goku_silhoutte.png",
+    "gifUrl": "/assets/images/characters/Goku.png",
+    "infos": {
+      "age": "30s",
+      "planet": "Action (أكشن)",
+      "gender": "Male",
+      "specialSkill": "Kamehameha"
+    },
+    "imageHints": [
+      "/assets/images/characters/hints/goku1.png",
+      "/assets/images/characters/hints/goku2.png",
+      "/assets/images/characters/hints/goku3.jpg",
+      "/assets/images/characters/hints/goku4.png"
+    ]
+  },  {
+    "id": "sakuragi",
+    "acceptedNames": ["hanamichi sakuragi", "sakuragi", "حسان", "هاناميتشي ساكوراجي"],
+    "englishName": "Hanamichi Sakuragi",
+    "arabicName": "حسان",
+    "imagePath": "/assets/images/characters/HanamichiSakuragi_silhoutte.png",
+    "gifUrl": "/assets/images/characters/HanamichiSakuragi.png",
+    "infos": {
+      "age": "16",
+      "planet": "Riyada (رياضة)",
+      "gender": "Male",
+      "specialSkill": "Rebounding"
+    },
+    "imageHints": [
+      "/assets/images/characters/hints/hanamichiSakuragi1.png",
+      "/assets/images/characters/hints/hanamichiSakuragi2.png",
+      "/assets/images/characters/hints/hanamichiSakuragi3.png",
+      "/assets/images/characters/hints/hanamichiSakuragi4.png"
+    ]
+  },
+    {
+    "id": "goura",
+    "acceptedNames": ["endou mamoru", "endou", "عامر", "أندو مامورو"],
+    "englishName": "Endou Mamoru",
+    "arabicName": "عامر",
+    "imagePath": "/assets/images/characters/EndouMamoru_silhoutte.png",
+    "gifUrl": "/assets/images/characters/EndouMamoru.png",
+    "infos": {
+      "age": "13-14",
+      "planet": "Riyada (رياضة)",
+      "gender": "Male",
+      "specialSkill": "God Hand"
+    },
+    "imageHints": [
+      "/assets/images/characters/hints/EndouMamoru1.png",
+      "/assets/images/characters/hints/EndouMamoru2.png",
+      "/assets/images/characters/hints/EndouMamoru3.png",
+      "/assets/images/characters/hints/EndouMamoru4.png"
+    ]
   }
 ]

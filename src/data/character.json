@@ -80,26 +80,6 @@
     ]
   },
   {
-    "id": "sakuragi",
-    "acceptedNames": ["hanamichi sakuragi", "sakuragi", "حسان", "هاناميتشي ساكوراجي"],
-    "englishName": "Hanamichi Sakuragi",
-    "arabicName": "حسان",
-    "imagePath": "/assets/images/characters/sakuragi-full.png",
-    "gifUrl": "/assets/images/characters/sakuragi-full.png",
-    "infos": {
-      "age": "16",
-      "planet": "Riyada (رياضة)",
-      "gender": "Male",
-      "specialSkill": "Rebounding"
-    },
-    "imageHints": [
-      "/assets/images/characters/sakuragi-full.png",
-      "/assets/images/characters/sakuragi-full.png",
-      "/assets/images/characters/sakuragi-full.png",
-      "/assets/images/characters/sakuragi-full.png"
-    ]
-  },
-  {
     "id": "rukawa",
     "acceptedNames": ["kaede rukawa", "rukawa", "فادي", "روكاوا"],
     "englishName": "Kaede Rukawa",
