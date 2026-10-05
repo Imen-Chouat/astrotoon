@@ -9,7 +9,7 @@ export default function InfoBadges({ infos, labels }) {
   ];
 
   return (
-    <div className="grid grid-cols-2 md:grid-cols-4 gap-5 w-auto px-4 justify-center items-center">
+    <div className="grid grid-cols-1 md:grid-cols-4 gap-5 w-auto px-4 justify-center items-center">
       {badgeList.map((info, idx) => (
         <div 
           key={idx} 
