@@ -251,5 +251,41 @@
       "/assets/images/catoon/hints/inazuma3.png",
       "/assets/images/catoon/hints/inazuma4.png"
     ]
+  },{
+    "id": "future_boy_conan",
+    "acceptedNames": ["future boy conan", "عدنان ولينا", "عدنان و لينا", "conan the boy of the future"],
+    "englishName": "Future Boy Conan",
+    "arabicName": "عدنان ولينا",
+    "gifUrl": "/assets/images/cartoon/adnan.png",
+    "infos": {
+      "releaseYear": "1978",
+      "planet": "Moghamarat (مغامرات)",
+      "episodes": "26 Episodes",
+      "adaptations": "Anime Series, Novel"
+    },
+    "imageHints": [
+      "/assets/images/cartoon/hints/adnan1.png",
+      "/assets/images/cartoon/hints/adnan2.png",
+      "/assets/images/cartoon/hints/adnan3.png",
+      "/assets/images/cartoon/hints/adnan4.png"
+    ]
+  }, {
+    "id": "grendizer",
+    "acceptedNames": ["ufo robot grendizer", "grendizer", "جريندايزر", "مغامرات الذهبي جريندايزر", "قريندايزر"],
+    "englishName": "UFO Robot Grendizer",
+    "arabicName": "مغامرات الفضاء: جريندايزر",
+    "gifUrl": "/assets/images/cartoon/grendizer.png",
+    "infos": {
+      "releaseYear": "1975",
+      "planet": "Action (أكشن)",
+      "episodes": "74 Episodes",
+      "adaptations": "Anime Series, Manga"
+    },
+    "imageHints": [
+      "/assets/images/cartoon/hints/grendizer.png",
+      "/assets/images/cartoon/hints/grendizer.png",
+      "/assets/images/cartoon/hints/grendizer.png",
+      "/assets/images/cartoon/hints/grendizer.png"
+    ]
   }
 ]

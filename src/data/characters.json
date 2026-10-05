@@ -233,23 +233,23 @@
       "/assets/images/characters/hints/Inuyasha4.png"
     ]
   },  {
-    "id": "pello",
-    "acceptedNames": ["heidi", "هايدي"],
-    "englishName": "Heidi",
-    "arabicName": "هايدي",
-    "imagePath": "/assets/images/characters/heidi-full.png",
-    "gifUrl": "/assets/images/characters/heidi-full.png",
+    "id": "anne",
+    "acceptedNames": ["anne", "anne of green gables", "آن", "آن أوف غرين غابلز"],
+    "englishName": "Anne Shirley",
+    "arabicName": "آن",
+    "imagePath": "/assets/images/characters/characters/sil_anne-shirley.png",
+    "gifUrl": "/assets/images/characters/characters/anne-shirley.png",
     "infos": {
-      "age": "5-8",
+      "age": "11-16",
       "planet": "Zomorroda (زمردة)",
       "gender": "Female",
-      "specialSkill": "Spreading Joy & Mountain Life"
+      "specialSkill": "Vivid Imagination"
     },
     "imageHints": [
-      "/assets/images/characters/heidi-full.png",
-      "/assets/images/characters/heidi-full.png",
-      "/assets/images/characters/heidi-full.png",
-      "/assets/images/characters/heidi-full.png"
+      "/assets/images/characters/characters/hints/anne1.png",
+      "/assets/images/characters/characters/hints/anne2.png",
+      "/assets/images/characters/characters/hints/anne3.png",
+      "/assets/images/characters/characters/hints/anne4.png"
     ]
   }
 ]
