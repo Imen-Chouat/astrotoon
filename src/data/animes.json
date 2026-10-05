@@ -166,5 +166,78 @@
       "/assets/images/cartoon/hints/majed3.png",
       "/assets/images/cartoon/hints/majed4.png"
     ]
+  },
+    {
+    "id": "digimon_adventure",
+    "acceptedNames": ["digimon", "digimon adventure", "أبطال الديجيتال", "ابطال الديجيتال", "الديجيتال"],
+    "englishName": "Digimon Adventure",
+    "arabicName": "أبطال الديجيتال",
+    "gifUrl": "/assets/images/cartoon/digimon.png",
+    "infos": {
+      "releaseYear": "1999",
+      "planet": "Moghamarat (مغامرات)",
+      "episodes": "54 Episodes",
+      "adaptations": "Anime Series, Movies"
+    },
+    "imageHints": [
+      "/assets/images/cartoon/hints/digimon1.png",
+      "/assets/images/cartoon/hints//digimon2.png",
+      "/assets/images/cartoon/hints//digimon3.png",
+      "/assets/images/cartoon/hints//digimon4.png"
+    ]
+  },  {
+    "id": "pokemon",
+    "acceptedNames": ["pokemon", "بوكيمون", "البوكيمون"],
+    "englishName": "Pokémon",
+    "arabicName": "بوكيمون",
+    "gifUrl": "/assets/images/cartoon/pokemon.png",
+    "infos": {
+      "releaseYear": "1997",
+      "planet": "Moghamarat (مغامرات)",
+      "episodes": "276 Episodes",
+      "adaptations": "Anime Series, Video Games, Movies"
+    },
+    "imageHints": [
+      "/assets/images/cartoon/hints/pokemon1.png",
+      "/assets/images/cartoon/hints/pokemon2.png",
+      "/assets/images/cartoon/hints/pokemon3.png",
+      "/assets/images/cartoon/hints/pokemon4.png"
+    ]
+  },  {
+    "id": "remi",
+    "acceptedNames": ["nobody's boy remi", "remi", "ريمي", "دروب ريمي"],
+    "englishName": "Remi, Nobody's Girl",
+    "arabicName": "ريمي",
+    "gifUrl": "/assets/images/cartoon/remi.png",
+    "infos": {
+      "releaseYear": "1996",
+      "planet": "Zomorroda (زمردة)",
+      "episodes": "26 Episodes",
+      "adaptations": "Anime Series, Novel"
+    },
+    "imageHints": [
+      "/assets/images/cartoon/hints/remi1.png",
+      "/assets/images/cartoon/hints/remi2.png",
+      "/assets/images/cartoon/hints/remi3.png",
+      "/assets/images/cartoon/hints/remi4.png"
+    ]
+  },  {
+    "id": "romeo_blue_skies",
+    "acceptedNames": ["romeo's blue skies", "romeo", "عهود الأصدقاء", "عهد الأصدقاء", "عهد الاصدقاء"],
+    "englishName": "Romeo's Blue Skies",
+    "arabicName": "عهد الأصدقاء",
+    "gifUrl": "/assets/images/cartoon/romeo.png",
+    "infos": {
+      "releaseYear": "1995",
+      "planet": "Zomorroda (زمردة)",
+      "episodes": "33 Episodes",
+      "adaptations": "Anime Series, Novel"
+    },
+    "imageHints": [
+      "/assets/images/cartoon/hints/romeo1.png",
+      "/assets/images/cartoon/hints/romeo2.png",
+      "/assets/images/cartoon/hints/romeo3.png",
+      "/assets/images/cartoon/hints/romeo4.png"
+    ]
   }
 ]

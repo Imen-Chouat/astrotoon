@@ -116,5 +116,121 @@
       "/assets/images/characters/hints/EndouMamoru3.png",
       "/assets/images/characters/hints/EndouMamoru4.png"
     ]
+  },
+    {
+    "id": "luffy",
+    "acceptedNames": ["luffy", "monkey d luffy", "لوفي", "مونكي دي لوفي"],
+    "englishName": "Monkey D. Luffy",
+    "arabicName": "لوفي",
+    "imagePath": "/assets/images/characters/Luffy_silhoutte.png",
+    "gifUrl": "/assets/images/characters/Luffy.png",
+    "infos": {
+      "age": "17",
+      "planet": "Moghamarat (مغامرات)",
+      "gender": "Male",
+      "specialSkill": "Gum-Gum Pistol"
+    },
+    "imageHints": [
+      "/assets/images/characters/hints/Luffy1.png",
+      "/assets/images/characters/hints/Luffy2.png",
+      "/assets/images/characters/hints/Luffy3.png",
+      "/assets/images/characters/hints/Luffy4.png"
+    ]
+  },
+    {
+    "id": "yugi",
+    "acceptedNames": ["yugi mutou", "yugi", "يوغي", "يوغي موتو"],
+    "englishName": "Yugi Muto",
+    "arabicName": "يوغي موتو",
+    "imagePath": "/assets/images/characters/YugiMuto_silhoutte.png",
+    "gifUrl": "/assets/images/characters/YugiMuto.png",
+    "infos": {
+      "age": "15-16",
+      "planet": "Action (أكشن)",
+      "gender": "Male",
+      "specialSkill": "Duel Monsters Strategy"
+    },
+    "imageHints": [
+      "/assets/images/characters/hints/YugiMuto1.png",
+      "/assets/images/characters/hints/YugiMuto2.png",
+      "/assets/images/characters/hints/YugiMuto3.png",
+      "/assets/images/characters/hints/YugiMuto4.png"
+    ]
+  },  {
+    "id": "naruto",
+    "acceptedNames": ["naruto", "naruto uzumaki", "ناروتو", "ناروتو أوزوماكي"],
+    "englishName": "Naruto Uzumaki",
+    "arabicName": "ناروتو",
+    "imagePath": "/assets/images/characters/NarutoUzumaki_silhoutte.png",
+    "gifUrl": "/assets/images/characters/NarutoUzumaki.png",
+    "infos": {
+      "age": "12-13",
+      "planet": "Action (أكشن)",
+      "gender": "Male",
+      "specialSkill": "Rasengan / Shadow Clone"
+    },
+    "imageHints": [
+      "/assets/images/characters/hints/NarutoUzumaki1.png",
+      "/assets/images/characters/hints/NarutoUzumaki2.png",
+      "/assets/images/characters/hints/NarutoUzumaki3.png",
+      "/assets/images/characters/hints/NarutoUzumaki4.png"
+    ]
+  },  {
+    "id": "gingka",
+    "acceptedNames": ["gingka hagane", "gingka", "يمان", "جينكا"],
+    "englishName": "Gingka Hagane",
+    "arabicName": "يمان",
+    "imagePath": "/assets/images/characters/GingkaHagane_silhoutte.png",
+    "gifUrl": "/assets/images/characters/GingkaHagane.png",
+    "infos": {
+      "age": "12",
+      "planet": "Riyada (رياضة)",
+      "gender": "Male",
+      "specialSkill": "Pegasus Starblast Attack"
+    },
+    "imageHints": [
+      "/assets/images/characters/hints/GingkaHagane1.png",
+      "/assets/images/characters/hints/GingkaHagane2.png",
+      "/assets/images/characters/hints/GingkaHagane3.png",
+      "/assets/images/characters/hints/GingkaHagane4.png"
+    ]
+  },  {
+    "id": "babar",
+    "acceptedNames": ["babar", "بايل", "بابار"],
+    "englishName": "Babar",
+    "arabicName": "بابار",
+    "imagePath": "/assets/images/characters/sil_babar.jpg",
+    "gifUrl": "/assets/images/characters/babar.png",
+    "infos": {
+      "age": "Adult",
+      "planet": "Bonbon (بون بون)",
+      "gender": "Male",
+      "specialSkill": "Wise Rulership"
+    },
+    "imageHints": [
+      "/assets/images/characters/hints/babar1.png",
+      "/assets/images/characters/hints/babr2.png",
+      "/assets/images/characters/hints/babar3.png",
+      "/assets/images/characters/hints/babar4.png"
+    ]
+  },  {
+    "id": "inuyasha",
+    "acceptedNames": ["inuyasha", "إنيوشا", "اينوشا"],
+    "englishName": "Inuyasha",
+    "arabicName": "إنيوشا",
+    "imagePath": "/assets/images/characters/sil_inuyasha.png",
+    "gifUrl": "/assets/images/characters/Inuyasha.webp",
+    "infos": {
+      "age": "15 (Physically) / 200+",
+      "planet": "Action (أكشن)",
+      "gender": "Male",
+      "specialSkill": "Tessaiga Sword Attacks"
+    },
+    "imageHints": [
+      "/assets/images/characters/hints/Inuyasha1.png",
+      "/assets/images/characters/hints/Inuyasha2.png",
+      "/assets/images/characters/hints/Inuyasha3.png",
+      "/assets/images/characters/hints/Inuyasha4.png"
+    ]
   }
 ]
