@@ -232,5 +232,24 @@
       "/assets/images/characters/hints/Inuyasha3.png",
       "/assets/images/characters/hints/Inuyasha4.png"
     ]
+  },  {
+    "id": "pello",
+    "acceptedNames": ["heidi", "هايدي"],
+    "englishName": "Heidi",
+    "arabicName": "هايدي",
+    "imagePath": "/assets/images/characters/heidi-full.png",
+    "gifUrl": "/assets/images/characters/heidi-full.png",
+    "infos": {
+      "age": "5-8",
+      "planet": "Zomorroda (زمردة)",
+      "gender": "Female",
+      "specialSkill": "Spreading Joy & Mountain Life"
+    },
+    "imageHints": [
+      "/assets/images/characters/heidi-full.png",
+      "/assets/images/characters/heidi-full.png",
+      "/assets/images/characters/heidi-full.png",
+      "/assets/images/characters/heidi-full.png"
+    ]
   }
 ]

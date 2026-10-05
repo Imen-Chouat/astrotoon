@@ -17,8 +17,7 @@
       "/assets/images/cartoon/hints/hunter3.png",
       "/assets/images/cartoon/hints/hunter4.png"
     ]
-  },
-  {
+  },{
     "id": "detective_conan",
     "acceptedNames": ["detective conan", "conan", "المحقق كونان", "كونان", "case closed"],
     "englishName": "Detective Conan",
@@ -36,8 +35,7 @@
       "/assets/images/animes/hints/conan3.png",
       "/assets/images/animes/hints/conan4.png"
     ]
-  },
-    {
+  },{
     "id": "doraemon",
     "acceptedNames": ["doraemon", "عبقور", "دوريمون"],
     "englishName": "Doraemon",
@@ -55,8 +53,7 @@
       "/assets/images/cartoon/hints/doraemon1.webp",
       "/assets/images/cartoon/hints/doraemon4.webp"
     ]
-  },
-    {
+  },{
     "id": "jewelpet",
     "acceptedNames": ["jewelpet", "جواهر", "رنين الجواهر", "حيوانات الجواهر"],
     "englishName": "Jewelpet",
@@ -74,8 +71,7 @@
       "/assets/images/cartoon/hints/jewelpet2.webp",
       "/assets/images/cartoon/hints/jewelpet4.webp"
     ]
-  },
-    {
+  },{
     "id": "popeye",
     "acceptedNames": ["popeye", "باباي", "باباي البحار"],
     "englishName": "Popeye the Sailor",
@@ -93,8 +89,7 @@
       "/assets/images/cartoon/hints/popeye3.webp",
       "/assets/images/cartoon/hints/popeye4.jpg"
     ]
-  },
-    {
+  },{
     "id": "sinbad",
     "acceptedNames": ["sinbad", "مغامرات سندباد", "سندباد"],
     "englishName": "Arabian Nights: Sinbad's Adventures",
@@ -130,7 +125,7 @@
       "/assets/images/cartoon/hints/pinkpanther3.png",
       "/assets/images/cartoon/hints/pinkpanther4.png"
     ]
-  },  {
+  },{
     "id": "dragon_ball",
     "acceptedNames": ["dragon ball", "dragon ball z", "دراغون بول", "دراغون بول زد", "dbz"],
     "englishName": "Dragon Ball",
@@ -148,7 +143,7 @@
       "/assets/images/cartoon/hints/dragonball3.png",
       "/assets/images/cartoon/hints/dragonball4.png"
     ]
-  },  {
+  },{
     "id": "captain_tsubasa",
     "acceptedNames": ["captain tsubasa", "captain majed", "الكابتن ماجد", "كابتن ماجد", "ماجد"],
     "englishName": "Captain Tsubasa",
@@ -166,8 +161,7 @@
       "/assets/images/cartoon/hints/majed3.png",
       "/assets/images/cartoon/hints/majed4.png"
     ]
-  },
-    {
+  },{
     "id": "digimon_adventure",
     "acceptedNames": ["digimon", "digimon adventure", "أبطال الديجيتال", "ابطال الديجيتال", "الديجيتال"],
     "englishName": "Digimon Adventure",
@@ -185,7 +179,7 @@
       "/assets/images/cartoon/hints//digimon3.png",
       "/assets/images/cartoon/hints//digimon4.png"
     ]
-  },  {
+  },{
     "id": "pokemon",
     "acceptedNames": ["pokemon", "بوكيمون", "البوكيمون"],
     "englishName": "Pokémon",
@@ -203,7 +197,7 @@
       "/assets/images/cartoon/hints/pokemon3.png",
       "/assets/images/cartoon/hints/pokemon4.png"
     ]
-  },  {
+  },{
     "id": "remi",
     "acceptedNames": ["nobody's boy remi", "remi", "ريمي", "دروب ريمي"],
     "englishName": "Remi, Nobody's Girl",
@@ -221,7 +215,7 @@
       "/assets/images/cartoon/hints/remi3.png",
       "/assets/images/cartoon/hints/remi4.png"
     ]
-  },  {
+  },{
     "id": "romeo_blue_skies",
     "acceptedNames": ["romeo's blue skies", "romeo", "عهود الأصدقاء", "عهد الأصدقاء", "عهد الاصدقاء"],
     "englishName": "Romeo's Blue Skies",
@@ -238,6 +232,24 @@
       "/assets/images/cartoon/hints/romeo2.png",
       "/assets/images/cartoon/hints/romeo3.png",
       "/assets/images/cartoon/hints/romeo4.png"
+    ]
+  },  {
+    "id": "inazuma_eleven",
+    "acceptedNames": ["inazuma eleven", "أبطال الكرة", "ابطال الكرة", "ابطال الكرة"],
+    "englishName": "Inazuma Eleven",
+    "arabicName": "أبطال الكرة",
+    "gifUrl": "/assets/images/catoon/inazuma.png",
+    "infos": {
+      "releaseYear": "2008",
+      "planet": "Riyada (رياضة)",
+      "episodes": "127 Episodes",
+      "adaptations": "Anime Series, Video Games, Manga"
+    },
+    "imageHints": [
+      "/assets/images/catoon/hints/inazuma1.png",
+      "/assets/images/catoon/hints/inazuma2.png",
+      "/assets/images/catoon/hints/inazuma3.png",
+      "/assets/images/catoon/hints/inazuma4.png"
     ]
   }
 ]
